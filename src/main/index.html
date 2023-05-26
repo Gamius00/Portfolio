@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Portfolio-Fabius</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+</head>
+<body id="body">
+    <div id="Layout" class="Layout" >
+        <div class="Taskleiste" id="taskleiste">
+            <h1 id="Fs-symbol" class="Fs-symbol">Portfolio</h1>
+            <p class="Home" id="Home" onclick="Homeclick()">About</p>
+            <p class="Skillbar" id="Skilbar" onclick="Skillbarclick()">Programming</p>
+            <p class="Contact" id="Contact" onclick="Contactclick()">Contact</p>
+            <p class="togglemod" onclick="togglemod()" id="togglemod"><img class="toggleimage" src="img/dark.png"></p>
+            <img src="img/menu.png" id="menusymb" onclick="menusymbclick()" class="menusymb" alt="">
+        </div>
+
+
+        <div id="content-home" class="content-home">
+                <h2 class="hello"> Hello 👋 </h1>
+                <h1 class="Im_Fabius"> I'm Fabius</h1>
+                <h3 class="textall">I'm <span class="text"></span></h3>
+            <img class="me" src="img/developer.png" alt="">
+            <div class="About_Me">
+                <h4>About Me</h4>
+                <p>Hello my name is Fabius, I´m <span id="years">14</span> years old. <br>I come from Germany. <br> My hobbies are programming and Aikido.<br> I'm coding Websites and Discord Bots. <br>
+                    I'm working on a many projects with friends. <br> We made a weather webapp. </p>
+            </div>
+
+            <div class="Skills">
+                <h4>Skillset</h4>
+                <div class="html"> 
+                 <img src="img/html-5 (3).png" alt="">
+                </div>
+                <div class="css">
+                    <img src="img/css-3.png" alt="">
+                </div>
+                <div class="js">
+                    <img src="img/js.png" alt="">
+                </div>
+                <div class="python">
+                    <img src="img/python.png" alt="">
+                </div>
+            </div>
+
+            <div class="Learning">
+                <h4>Learning</h4>
+                <div class="react">
+                    <img src="img/react.png" alt="">
+                </div>
+                <div class="tailwind">
+                    <img src="img/tailwind.png " alt="">
+                </div>
+            </div>
+
+            <div class="Projects">
+                <h4>Projects</h4>
+                <div class="Password-Generator">
+                    <img src="img/password-generator.png" alt="">
+                    <p>Password-Generator</p>
+                    <a class="pg-button" href="https://password-generator-gamius.netlify.app/">Try</a>
+                </div>
+            </div>
+
+            <div class="Tools-use">
+                <h4>Tools I use</h4>
+                    <div class="android">
+                         <img src="img/android-logo.png" alt="">
+                    </div>
+            
+                    <div class="github">
+                         <img src="img/github.png" alt="">
+                    </div>
+
+                    <div class="windows">
+                        <img src="img/windows.png" alt="">
+                   </div>
+            </div>
+
+            <div class="Contact-Me">
+                <h4>Contact-Me</h4>
+                <p class="discord">Discord: Gamius | 開ける#3276</p>
+                <p class="Email">Email: <a href="mailto: GescheaftlichGamius@gmx.de">GescheaftlichGamius@gmx.de</a></p>
+          
+            </div>
+        </div>
+
+        <div id="content-contact" class="content-contact-invinsible">
+            <h2>Contact Me</h2>
+            <p>Email: GescheaftlichGamius@gmx.de</p>
+            <img src="img/discord.png" class="discord-icon" id="discord-icon" onclick="discordclick()" alt="">
+        </div>
+
+        <div id="copyright" class="copyright">
+           <p>© Copyright by Fabius 2023 </p>
+        </div>
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
